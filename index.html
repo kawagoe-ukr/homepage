@@ -2,10 +2,218 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Résumé</title>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <article>
+        <div class="page" style="border-color: midnightblue">
+          <div class="stackable grid">
+            <div class="row">
+              <div class="three wide center aligned column">
+                <!-- Avatar -->
+                <div class="avatar-wrapper">
+                  <object
+                    class="avatar"
+                    data="./assets/images/avatar.svg"
+                    role="img"
+                    aria-label="My profile picture"
+                  ></object>
+                </div>
+              </div>
+              <div class="thirteen wide column">
+                <div class="stackable grid">
+                  <div class="sixteen wide column">
+                    <!-- Name, job, contacts -->
+                    <h1 class="name">Donald Trump</h1>
+                    <div class="job">Expresident of USA</div>
+                    <ul class="contacts">
+                      <li>
+                        <a href="https://www.facebook.com/DonaldTrump/" rel="author" class="facebook">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                              d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"
+                            />
+                          </svg>
+                          <span>DonaldTrump</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/realdonaldtrump/" rel="author" class="instagram">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                              fill="currentColor"
+                              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                            ></path>
+                          </svg>
+                          <span>realdonaldtrump</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/RealDonaldTrump" rel="author" class="twitter">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                              fill="currentColor"
+                              d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"
+                            ></path>
+                          </svg>
+                          <span>RealDonaldTrump(Temporarily Unavailable)</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="sixteen wide mobile only column">
+                    <div class="divider"></div>
+                  </div>
+                  <div class="sixteen wide column">
+                    <!-- Intro -->
+                    <h2>Résumé</h2>
+                    <p>
+                      I am the best candidate for the presidency. I have so many websites all over the place. I'm fond
+                      of hiring people cause it costs me 3 dollars. And you know that the best part of me I'm the
+                      richest person as none is and Joe Biden will take the dust cause none can be better than I am. And
+                      you will see how I make Mexico pay! Make America great again!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide column">
+                <div class="fat divider"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="ten wide column">
+                <!-- Experience -->
+                <h3>Experience</h3>
+                <ul class="timeline">
+                  <li>
+                    <p><small>2000 presidential campaign</small></p>
+                    <p>
+                      Trump ran in the California and Michigan primaries for nomination as the Reform Party candidate
+                      for the 2000 presidential election but withdrew from the race in February 2000. A July 1999 poll
+                      matching him against likely Republican nominee George W. Bush and likely Democratic nominee Al
+                      Gore showed Trump with seven percent support.
+                    </p>
+                  </li>
+                  <li>
+                    <p><small>2012 presidential speculation</small></p>
+                    <p>
+                      Trump speculated about running against President Barack Obama in the 2012 election, making his
+                      first speaking appearance at the Conservative Political Action Conference (CPAC) in February 2011
+                      and giving speeches in early primary states. In May 2011 he announced he would not run and he
+                      endorsed Mitt Romney in February 2012. Trump's presidential ambitions were generally not taken
+                      seriously at the time.
+                    </p>
+                  </li>
+                  <li>
+                    <p><small>2016 presidential campaign</small></p>
+                    <p>
+                      On June 16, 2015, Trump announced his candidacy for President of the United States. His campaign
+                      was initially not taken seriously by political analysts, but he quickly rose to the top of opinion
+                      polls. On Super Tuesday, Trump received the most votes, and he remained the front-runner
+                      throughout the primaries. After a landslide win in Indiana on May 3, 2016 – which prompted the
+                      remaining candidates Ted Cruz and John Kasich to suspend their presidential campaigns – RNC
+                      chairman Reince Priebus declared Trump the presumptive Republican nominee.
+                    </p>
+                  </li>
+                  <li>
+                    <p><small>September and October 2016</small></p>
+                    <p>
+                      Trump and Clinton faced off in three presidential debates Trump's refusal to say whether he would
+                      accept the result of the election drew attention, with some saying it undermined democracy.
+                    </p>
+                  </li>
+                  <li>
+                    <p><small>2017–2021 Presidency</small></p>
+                    <p>
+                      Trump was inaugurated as the 45th president of the United States on January 20, 2017. During his
+                      first week in office, he signed six executive orders: interim procedures in anticipation of
+                      repealing the Affordable Care Act ("Obamacare"), withdrawal from the Trans-Pacific Partnership
+                      negotiations, reinstatement of the Mexico City Policy, authorizing the Keystone XL and Dakota
+                      Access Pipeline construction projects, reinforcing border security, and beginning the planning and
+                      design process to construct a wall along the U.S. border with Mexico. Trump's proposed immigration
+                      policies were a topic of bitter and contentious debate during the campaign. He promised to build a
+                      wall on the Mexico–United States border to restrict illegal movement and vowed Mexico would pay
+                      for it. He pledged to deport millions of illegal immigrants residing in the United States, and
+                      criticized birthright citizenship for incentivizing "anchor babies." As president, he frequently
+                      described illegal immigration as an "invasion" and conflated immigrants with the criminal gang
+                      MS-13, though research shows undocumented immigrants have a lower crime rate than native-born
+                      Americans. From 2018 onwards, Trump deployed nearly 6,000 troops to the U.S.–Mexico border, to
+                      stop most Central American migrants from seeking U.S. asylum, and from 2020 used the public charge
+                      rule to restrict immigrants using government benefits from getting permanent residency via green
+                      cards. Trump has reduced the number of refugees admitted into the U.S. to record lows. When Trump
+                      took office, the annual limit was 110,000; Trump set a limit of 18,000 in the 2020 fiscal year and
+                      15,000 in the 2021 fiscal year. Additional restrictions implemented by the Trump administration
+                      caused significant bottlenecks in processing refugee applications, resulting in fewer refugees
+                      accepted compared to the allowed limits. Trump described himself as a "nationalist" and his
+                      foreign policy as "America First." He espoused isolationist, non-interventionist, and
+                      protectionist views. His foreign policy was marked by praise and support of populist,
+                      neo-nationalist and authoritarian governments. Hallmarks of foreign relations during Trump's
+                      tenure included unpredictability and uncertainty, a lack of a consistent foreign policy, and
+                      strained and sometimes antagonistic relationships with the U.S.'s European allies. Trump
+                      questioned the need for NATO, criticized the U.S.'s NATO allies, and privately suggested on
+                      multiple occasions that the United States should withdraw from the alliance.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="six wide column">
+                <!-- Languages -->
+                <section>
+                  <h3>Languages</h3>
+                  <p class="tags small">
+                    <span class="language" lang="ua">&#x1f1fa;&#x1f1e6; УКРАЇНСЬКА</span>
+                    <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span>
+                  </p>
+                </section>
+                <!-- Skills -->
+                <section>
+                  <h3>Skills</h3>
+                  <p class="tags small">
+                    NEGOATITING, ELLACTING, TWITTING, HOSTING, DEBATING, SINGING, CRITICIZING, LEADING, HIRING, FUNDING
+                  </p>
+                </section>
+                <!-- Character -->
+                <section>
+                  <h3>Character</h3>
+                  <p class="tags small">
+                    CONFIDENCE, AUTHORATITIVE, DAUNTLESS, DEAL-MAKER, PRUDENT WITH RESOURCES, SELF-INTEREST FIRST, CLEAR
+                    PRIORITIES, FINANCIAL UNDERSTANDING
+                  </p>
+                </section>
+                <!-- Likes -->
+                <section>
+                  <h3>Likes&#x1f603;</h3>
+                  <p class="tags small">
+                    BEAUTIFUL MODELS, NICE LEGS, DIET, PATRIOTS, AMERICA, MONEY, BUSINESS, CHINA, SKYSCRAPERS, THE WHITE
+                    HOUSE, HAIRSTYLE, WALLS, SHAKING HANDS
+                  </p>
+                </section>
+                <!-- Dislikes -->
+                <section>
+                  <h3>Dislikes&#x1f61e;</h3>
+                  <p class="tags small">MEXICANS, IMMIGRANTS, WARS, MEDIA, TWITTER, JOE BIDEN</p>
+                </section>
+                <!-- Wants -->
+                <section>
+                  <h3>Wants&#x1f97a;</h3>
+                  <p class="tags small bulleted">
+                    <span class="tag">BE HEALTHY</span>
+                    <span class="tag">ALWAYS WIN</span>
+                    <span class="tag">MAKE AMERICA GREAT AGAIN</span>
+                  </p>
+                </section>
+                <!-- Education -->
+                <!-- Articles -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
